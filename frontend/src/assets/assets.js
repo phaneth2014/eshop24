@@ -96,6 +96,8 @@ import author_avatar from './images/author-avata.jpg';
 import slide_banner_1 from './images/3-slide-banner-1.jpg';
 import slide_banner_2 from './images/3-slide-banner-2.jpg';
 
+import fashion_accesories_banner from './images/fashion-accesories-banner.jpg';
+
 const assets = {
   logo,
   logo_eshop,
@@ -183,6 +185,7 @@ const assets = {
 
   slide_banner_1,
   slide_banner_2,
+  fashion_accesories_banner
 };
 
 export default assets;

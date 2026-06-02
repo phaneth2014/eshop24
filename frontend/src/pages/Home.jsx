@@ -1,5 +1,6 @@
 import assets from "../assets/assets";
 import products from "../assets/products";
+// import { mainProducts } from "../api/products_data";
 
 const Home = () => {
   return (
@@ -14,8 +15,12 @@ const Home = () => {
             data-nav="true"
             data-dots="false"
           >
+
             <div className="item-slide">
-              <img src={assets.main_slider_1_1} className="img-slide" />
+              <img
+                src={assets.main_slider_1_1}           
+                className="img-slide"
+              />
               <div className="slide-info slide-1">
                 <h2 className="f-title">
                   Kid Smart <b>Watches</b>
@@ -32,7 +37,10 @@ const Home = () => {
               </div>
             </div>
             <div className="item-slide">
-              <img src={assets.main_slider_1_2} className="img-slide" />
+              <img
+                src={assets.main_slider_1_2}           
+                className="img-slide"
+              />
               <div className="slide-info slide-2">
                 <h2 className="f-title">Extra 25% Off</h2>
                 <span className="f-subtitle">On online payments</span>
@@ -43,7 +51,7 @@ const Home = () => {
             </div>
             <div className="item-slide">
               <img
-                src={assets.main_slider_1_3}
+                src={assets.main_slider_1_3}             
                 className="img-slide"
               />
               <div className="slide-info slide-3">
@@ -68,14 +76,22 @@ const Home = () => {
           <div className="banner-item">
             <a href="#" className="link-banner banner-effect-1">
               <figure>
-                <img src={assets.home_1_banner_1} width={580} height={190} />
+                <img
+                  src={assets.home_1_banner_1}        
+                  width={580}
+                  height={190}
+                />
               </figure>
             </a>
           </div>
           <div className="banner-item">
             <a href="#" className="link-banner banner-effect-1">
               <figure>
-                <img src={assets.home_1_banner_2} width={580} height={190} />
+                <img
+                  src={assets.home_1_banner_2}        
+                  width={580}
+                  height={190}
+                />
               </figure>
             </a>
           </div>
@@ -103,7 +119,7 @@ const Home = () => {
                 >
                   <figure>
                     <img
-                      src={assets.tools_equipment_7}
+                      src={products.tools_equipment_7}
                       width={800}
                       height={800}
                       alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -137,7 +153,12 @@ const Home = () => {
                   title="T-Shirt Raw Hem Organic Boro Constrast Denim"
                 >
                   <figure>
-                    <img src={assets.digital_18} width={800} height={800} />
+                    <img
+                      src={products.digital_18}
+                      width={800}
+                      height={800}
+                      alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
+                    />
                   </figure>
                 </a>
                 <div className="group-flash">
@@ -173,7 +194,7 @@ const Home = () => {
                 >
                   <figure>
                     <img
-                      src={assets.fashion_08}
+                      src={products.fashion_08}
                       width={800}
                       height={800}
                       alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -207,7 +228,12 @@ const Home = () => {
                   title="T-Shirt Raw Hem Organic Boro Constrast Denim"
                 >
                   <figure>
-                    <img src={products.digital_17} width={800} height={800} />
+                    <img
+                      src={products.digital_17}
+                      width={800}
+                      height={800}
+                     
+                    />
                   </figure>
                 </a>
                 <div className="group-flash">
@@ -243,9 +269,10 @@ const Home = () => {
                 >
                   <figure>
                     <img
-                      src={assets.tools_equipment_3}
+                      src={products.tools_equipment_3}
                       width={800}
                       height={800}
+                        alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
                     />
                   </figure>
                 </a>
@@ -393,9 +420,10 @@ const Home = () => {
             <a href="#" className="link-banner banner-effect-2">
               <figure>
                 <img
-                  src={products.digital_electronic_banner}
+                  src={assets.digital_electronic_banner}
                   width={1170}
                   height={240}
+                  alt="Digital Electronic Banner"
                 />
               </figure>
             </a>

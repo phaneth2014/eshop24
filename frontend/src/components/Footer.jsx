@@ -1,4 +1,5 @@
-
+import assets from "../assets/assets";
+import brands from "../assets/brands";
 
 const Footer = () => {
 
@@ -52,19 +53,19 @@ const Footer = () => {
                         <li>
                           <i className="fa fa-map-marker" aria-hidden="true" />
                           <p className="contact-txt">
-                            45 Grand Central Terminal New York,NY 1017 United
-                            State USA
+                            10, Street Lum, Phum Kambol, Khan Kambol,
+                            Phnom Penh, Cambodia
                           </p>
                         </li>
                         <li>
                           <i className="fa fa-phone" aria-hidden="true" />
                           <p className="contact-txt">
-                            (+123) 456 789 - (+123) 666 888
+                            (+855) 07 978 400 - (+855) 78 877 662
                           </p>
                         </li>
                         <li>
                           <i className="fa fa-envelope" aria-hidden="true" />
-                          <p className="contact-txt">Contact@yourcompany.com</p>
+                          <p className="contact-txt">Contact@eshop24.com</p>
                         </li>
                       </ul>
                     </div>
@@ -78,7 +79,7 @@ const Footer = () => {
                     <div className="wrap-hotline-footer">
                       <span className="desc">Call Us toll Free</span>
                       <b className="phone-number">
-                        (+123) 456 789 - (+123) 666 888
+                        (+855) 07 978 400 - (+855) 78 877 662
                       </b>
                     </div>
                   </div>
@@ -185,7 +186,7 @@ const Footer = () => {
                   <div className="item-content">
                     <div className="wrap-list-item wrap-gallery">
                       <img
-                        src="assets/images/payment.png"
+                        src={assets.payment}
                         style={{ maxWidth: 260 }}
                       />
                     </div>
@@ -250,7 +251,7 @@ const Footer = () => {
                           >
                             <figure>
                               <img
-                                src="assets/images/brands/apple-store.png"
+                                src={brands.apple_store}
                                 alt="apple store"
                                 width={128}
                                 height={36}
@@ -266,7 +267,7 @@ const Footer = () => {
                           >
                             <figure>
                               <img
-                                src="assets/images/brands/google-play-store.png"
+                                src={brands.google_play_store}
                                 alt="google play store"
                                 width={128}
                                 height={36}
