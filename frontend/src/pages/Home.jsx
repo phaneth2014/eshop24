@@ -1,4 +1,5 @@
 import assets from "../assets/assets";
+import products from "../assets/products";
 
 const Home = () => {
   return (
@@ -42,7 +43,7 @@ const Home = () => {
             </div>
             <div className="item-slide">
               <img
-                src="assets/images/main-slider-1-3.jpg"
+                src={assets.main_slider_1_3}
                 className="img-slide"
               />
               <div className="slide-info slide-3">
@@ -206,7 +207,7 @@ const Home = () => {
                   title="T-Shirt Raw Hem Organic Boro Constrast Denim"
                 >
                   <figure>
-                    <img src={assets.digital_17} width={800} height={800} />
+                    <img src={products.digital_17} width={800} height={800} />
                   </figure>
                 </a>
                 <div className="group-flash">
@@ -276,7 +277,7 @@ const Home = () => {
                 >
                   <figure>
                     <img
-                      src={assets.fashion_05}
+                      src={products.fashion_05}
                       width={800}
                       height={800}
                       alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -316,7 +317,7 @@ const Home = () => {
                 >
                   <figure>
                     <img
-                      src={assets.digital_04}
+                      src={products.digital_04}
                       width={800}
                       height={800}
                       alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -351,7 +352,7 @@ const Home = () => {
                 >
                   <figure>
                     <img
-                      src={assets.kidtoy_05}
+                      src={products.kidtoy_05}
                       width={800}
                       height={800}
                       alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -392,7 +393,7 @@ const Home = () => {
             <a href="#" className="link-banner banner-effect-2">
               <figure>
                 <img
-                  src={assets.digital_electronic_banner}
+                  src={products.digital_electronic_banner}
                   width={1170}
                   height={240}
                 />
@@ -419,7 +420,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.digital_04}
+                              src={products.digital_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -455,7 +456,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.digital_17}
+                              src={products.digital_17}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -496,7 +497,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.digital_15}
+                              src={products.digital_15}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -538,7 +539,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.digital_01}
+                              src={products.digital_01}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -576,7 +577,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.digital_21}
+                              src={products.digital_21}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -609,7 +610,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.digital_03}
+                              src={products.digital_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -650,7 +651,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.digital_04}
+                              src={products.digital_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -686,7 +687,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.digital_05}
+                              src={products.digital_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -771,7 +772,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_01}
+                              src={products.fashion_01}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -806,7 +807,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_02}
+                              src={products.fashion_02}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -847,7 +848,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_09}
+                              src={products.fashion_09}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -879,7 +880,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_03}
+                              src={products.fashion_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -920,7 +921,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_07}
+                              src={products.fashion_07}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -958,7 +959,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_08}
+                              src={products.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -999,7 +1000,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_06}
+                              src={products.fashion_06}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1035,7 +1036,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_05}
+                              src={products.fashion_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1084,7 +1085,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_03}
+                              src={products.fashion_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1122,7 +1123,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_07}
+                              src={products.fashion_07}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1165,7 +1166,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_08}
+                              src={products.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1203,7 +1204,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_09}
+                              src={products.fashion_09}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1246,7 +1247,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_02}
+                              src={products.fashion_02}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1284,7 +1285,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_05}
+                              src={products.fashion_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1327,7 +1328,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_08}
+                              src={products.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1365,7 +1366,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_04}
+                              src={products.fashion_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1419,7 +1420,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_02}
+                              src={products.fashion_02}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1455,7 +1456,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_03}
+                              src={products.fashion_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1497,7 +1498,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_04}
+                              src={products.fashion_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1533,7 +1534,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_05}
+                              src={products.fashion_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1575,7 +1576,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_06}
+                              src={products.fashion_06}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1611,7 +1612,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_07}
+                              src={products.fashion_07}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1653,7 +1654,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_08}
+                              src={products.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1689,7 +1690,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_09}
+                              src={products.fashion_09}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1742,7 +1743,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_05}
+                              src={products.fashion_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1782,7 +1783,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_04}
+                              src={products.fashion_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1829,7 +1830,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_03}
+                              src={products.fashion_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1871,7 +1872,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_02}
+                              src={products.fashion_02}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1920,7 +1921,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_01}
+                              src={products.fashion_01}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1960,7 +1961,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_06}
+                              src={products.fashion_06}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -2007,7 +2008,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_08}
+                              src={products.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -2049,7 +2050,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src={assets.fashion_09}
+                              src={products.fashion_09}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"

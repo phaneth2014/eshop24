@@ -1,4 +1,6 @@
 // banners & sliders
+import logo from './images/logo-eshop.png';
+import logo_eshop from './images/logo-eshop-2.png';
 import tool_banner from './images/tool-banner.jpg';
 import spa_banner from './images/spa-banner.jpg';
 import shop_banner from './images/shop-banner.jpg';
@@ -95,6 +97,8 @@ import slide_banner_1 from './images/3-slide-banner-1.jpg';
 import slide_banner_2 from './images/3-slide-banner-2.jpg';
 
 const assets = {
+  logo,
+  logo_eshop,
   tool_banner,
   spa_banner,
   shop_banner,

@@ -1,4 +1,5 @@
 import React from "react";
+import assets from '../assets/assets';
 
 const Header = () => {
   React.useEffect(() => {
@@ -48,7 +49,7 @@ const Header = () => {
                     <li className="menu-item lang-menu menu-item-has-children parent">
                       <a title="English" href="#">
                         <span className="img label-before">
-                          <img src="assets/images/lang-en.png" alt="lang-en" />
+                          <img src={assets.lang_en} alt="lang-en" />
                         </span>
                         English
                         <i className="fa fa-angle-down" aria-hidden="true" />
@@ -58,7 +59,7 @@ const Header = () => {
                           <a title="hungary" href="#">
                             <span className="img label-before">
                               <img
-                                src="assets/images/lang-hun.png"
+                                src={assets.lang_hu}
                                 alt="lang-hun"
                               />
                             </span>
@@ -69,7 +70,7 @@ const Header = () => {
                           <a title="german" href="#">
                             <span className="img label-before">
                               <img
-                                src="assets/images/lang-ger.png"
+                                src={assets.lang_de}
                                 alt="lang-ger"
                               />
                             </span>
@@ -80,7 +81,7 @@ const Header = () => {
                           <a title="french" href="#">
                             <span className="img label-before">
                               <img
-                                src="assets/images/lang-fra.png"
+                                src={assets.lang_fr}
                                 alt="lang-fre"
                               />
                             </span>
@@ -91,7 +92,7 @@ const Header = () => {
                           <a title="canada" href="#">
                             <span className="img label-before">
                               <img
-                                src="assets/images/lang-can.png"
+                                src={assets.lang_cn}
                                 alt="lang-can"
                               />
                             </span>
@@ -131,7 +132,7 @@ const Header = () => {
               <div className="mid-section main-info-area">
                 <div className="wrap-logo-top left-section">
                   <a href="index.html" className="link-to-home">
-                    <img src="assets/images/logo-top-1.png" alt="mercado" />
+                    <img src={assets.logo_eshop} alt="mercado" />
                   </a>
                 </div>
                 <div className="wrap-search center-section">
