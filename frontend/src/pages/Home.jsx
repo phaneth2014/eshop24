@@ -1,4 +1,4 @@
-import assets from './assets/assets.js';
+import assets from "../assets/assets";
 
 const Home = () => {
   return (
@@ -14,11 +14,7 @@ const Home = () => {
             data-dots="false"
           >
             <div className="item-slide">
-              <img
-                src="assets/images/main-slider-1-1.jpg"
-                alt
-                className="img-slide"
-              />
+              <img src={assets.main_slider_1_1} className="img-slide" />
               <div className="slide-info slide-1">
                 <h2 className="f-title">
                   Kid Smart <b>Watches</b>
@@ -35,11 +31,7 @@ const Home = () => {
               </div>
             </div>
             <div className="item-slide">
-              <img
-                src="assets/images/main-slider-1-2.jpg"
-                alt
-                className="img-slide"
-              />
+              <img src={assets.main_slider_1_2} className="img-slide" />
               <div className="slide-info slide-2">
                 <h2 className="f-title">Extra 25% Off</h2>
                 <span className="f-subtitle">On online payments</span>
@@ -51,7 +43,6 @@ const Home = () => {
             <div className="item-slide">
               <img
                 src="assets/images/main-slider-1-3.jpg"
-                alt
                 className="img-slide"
               />
               <div className="slide-info slide-3">
@@ -76,24 +67,14 @@ const Home = () => {
           <div className="banner-item">
             <a href="#" className="link-banner banner-effect-1">
               <figure>
-                <img
-                  src="assets/images/home-1-banner-1.jpg"
-                  alt
-                  width={580}
-                  height={190}
-                />
+                <img src={assets.home_1_banner_1} width={580} height={190} />
               </figure>
             </a>
           </div>
           <div className="banner-item">
             <a href="#" className="link-banner banner-effect-1">
               <figure>
-                <img
-                  src="assets/images/home-1-banner-2.jpg"
-                  alt
-                  width={580}
-                  height={190}
-                />
+                <img src={assets.home_1_banner_2} width={580} height={190} />
               </figure>
             </a>
           </div>
@@ -121,7 +102,7 @@ const Home = () => {
                 >
                   <figure>
                     <img
-                      src="assets/images/products/tools_equipment_7.jpg"
+                      src={assets.tools_equipment_7}
                       width={800}
                       height={800}
                       alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -155,11 +136,150 @@ const Home = () => {
                   title="T-Shirt Raw Hem Organic Boro Constrast Denim"
                 >
                   <figure>
+                    <img src={assets.digital_18} width={800} height={800} />
+                  </figure>
+                </a>
+                <div className="group-flash">
+                  <span className="flash-item sale-label">sale</span>
+                </div>
+                <div className="wrap-btn">
+                  <a href="#" className="function-link">
+                    quick view
+                  </a>
+                </div>
+              </div>
+              <div className="product-info">
+                <a href="#" className="product-name">
+                  <span>
+                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
+                  </span>
+                </a>
+                <div className="wrap-price">
+                  <ins>
+                    <p className="product-price">$168.00</p>
+                  </ins>{" "}
+                  <del>
+                    <p className="product-price">$250.00</p>
+                  </del>
+                </div>
+              </div>
+            </div>
+            <div className="product product-style-2 equal-elem ">
+              <div className="product-thumnail">
+                <a
+                  href="detail.html"
+                  title="T-Shirt Raw Hem Organic Boro Constrast Denim"
+                >
+                  <figure>
                     <img
-                      src="assets/images/products/digital_18.jpg"
+                      src={assets.fashion_08}
                       width={800}
                       height={800}
-                      alt
+                      alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
+                    />
+                  </figure>
+                </a>
+                <div className="group-flash">
+                  <span className="flash-item sale-label">sale</span>
+                </div>
+                <div className="wrap-btn">
+                  <a href="#" className="function-link">
+                    quick view
+                  </a>
+                </div>
+              </div>
+              <div className="product-info">
+                <a href="#" className="product-name">
+                  <span>
+                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
+                  </span>
+                </a>
+                <div className="wrap-price">
+                  <span className="product-price">$250.00</span>
+                </div>
+              </div>
+            </div>
+            <div className="product product-style-2 equal-elem ">
+              <div className="product-thumnail">
+                <a
+                  href="detail.html"
+                  title="T-Shirt Raw Hem Organic Boro Constrast Denim"
+                >
+                  <figure>
+                    <img src={assets.digital_17} width={800} height={800} />
+                  </figure>
+                </a>
+                <div className="group-flash">
+                  <span className="flash-item sale-label">sale</span>
+                </div>
+                <div className="wrap-btn">
+                  <a href="#" className="function-link">
+                    quick view
+                  </a>
+                </div>
+              </div>
+              <div className="product-info">
+                <a href="#" className="product-name">
+                  <span>
+                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
+                  </span>
+                </a>
+                <div className="wrap-price">
+                  <ins>
+                    <p className="product-price">$168.00</p>
+                  </ins>{" "}
+                  <del>
+                    <p className="product-price">$250.00</p>
+                  </del>
+                </div>
+              </div>
+            </div>
+            <div className="product product-style-2 equal-elem ">
+              <div className="product-thumnail">
+                <a
+                  href="detail.html"
+                  title="T-Shirt Raw Hem Organic Boro Constrast Denim"
+                >
+                  <figure>
+                    <img
+                      src={assets.tools_equipment_3}
+                      width={800}
+                      height={800}
+                    />
+                  </figure>
+                </a>
+                <div className="group-flash">
+                  <span className="flash-item sale-label">sale</span>
+                </div>
+                <div className="wrap-btn">
+                  <a href="#" className="function-link">
+                    quick view
+                  </a>
+                </div>
+              </div>
+              <div className="product-info">
+                <a href="#" className="product-name">
+                  <span>
+                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
+                  </span>
+                </a>
+                <div className="wrap-price">
+                  <span className="product-price">$250.00</span>
+                </div>
+              </div>
+            </div>
+            <div className="product product-style-2 equal-elem ">
+              <div className="product-thumnail">
+                <a
+                  href="detail.html"
+                  title="T-Shirt Raw Hem Organic Boro Constrast Denim"
+                >
+                  <figure>
+                    <img
+                      src={assets.fashion_05}
+                      width={800}
+                      height={800}
+                      alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
                     />
                   </figure>
                 </a>
@@ -196,7 +316,7 @@ const Home = () => {
                 >
                   <figure>
                     <img
-                      src="assets/images/products/fashion_08.jpg"
+                      src={assets.digital_04}
                       width={800}
                       height={800}
                       alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -231,157 +351,7 @@ const Home = () => {
                 >
                   <figure>
                     <img
-                      src="assets/images/products/digital_17.jpg"
-                      width={800}
-                      height={800}
-                      alt
-                    />
-                  </figure>
-                </a>
-                <div className="group-flash">
-                  <span className="flash-item sale-label">sale</span>
-                </div>
-                <div className="wrap-btn">
-                  <a href="#" className="function-link">
-                    quick view
-                  </a>
-                </div>
-              </div>
-              <div className="product-info">
-                <a href="#" className="product-name">
-                  <span>
-                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
-                  </span>
-                </a>
-                <div className="wrap-price">
-                  <ins>
-                    <p className="product-price">$168.00</p>
-                  </ins>{" "}
-                  <del>
-                    <p className="product-price">$250.00</p>
-                  </del>
-                </div>
-              </div>
-            </div>
-            <div className="product product-style-2 equal-elem ">
-              <div className="product-thumnail">
-                <a
-                  href="detail.html"
-                  title="T-Shirt Raw Hem Organic Boro Constrast Denim"
-                >
-                  <figure>
-                    <img
-                      src="assets/images/products/tools_equipment_3.jpg"
-                      width={800}
-                      height={800}
-                      alt
-                    />
-                  </figure>
-                </a>
-                <div className="group-flash">
-                  <span className="flash-item sale-label">sale</span>
-                </div>
-                <div className="wrap-btn">
-                  <a href="#" className="function-link">
-                    quick view
-                  </a>
-                </div>
-              </div>
-              <div className="product-info">
-                <a href="#" className="product-name">
-                  <span>
-                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
-                  </span>
-                </a>
-                <div className="wrap-price">
-                  <span className="product-price">$250.00</span>
-                </div>
-              </div>
-            </div>
-            <div className="product product-style-2 equal-elem ">
-              <div className="product-thumnail">
-                <a
-                  href="detail.html"
-                  title="T-Shirt Raw Hem Organic Boro Constrast Denim"
-                >
-                  <figure>
-                    <img
-                      src="assets/images/products/fashion_05.jpg"
-                      width={800}
-                      height={800}
-                      alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
-                    />
-                  </figure>
-                </a>
-                <div className="group-flash">
-                  <span className="flash-item sale-label">sale</span>
-                </div>
-                <div className="wrap-btn">
-                  <a href="#" className="function-link">
-                    quick view
-                  </a>
-                </div>
-              </div>
-              <div className="product-info">
-                <a href="#" className="product-name">
-                  <span>
-                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
-                  </span>
-                </a>
-                <div className="wrap-price">
-                  <ins>
-                    <p className="product-price">$168.00</p>
-                  </ins>{" "}
-                  <del>
-                    <p className="product-price">$250.00</p>
-                  </del>
-                </div>
-              </div>
-            </div>
-            <div className="product product-style-2 equal-elem ">
-              <div className="product-thumnail">
-                <a
-                  href="detail.html"
-                  title="T-Shirt Raw Hem Organic Boro Constrast Denim"
-                >
-                  <figure>
-                    <img
-                      src="assets/images/products/digital_04.jpg"
-                      width={800}
-                      height={800}
-                      alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
-                    />
-                  </figure>
-                </a>
-                <div className="group-flash">
-                  <span className="flash-item sale-label">sale</span>
-                </div>
-                <div className="wrap-btn">
-                  <a href="#" className="function-link">
-                    quick view
-                  </a>
-                </div>
-              </div>
-              <div className="product-info">
-                <a href="#" className="product-name">
-                  <span>
-                    Radiant-360 R6 Wireless Omnidirectional Speaker [White]
-                  </span>
-                </a>
-                <div className="wrap-price">
-                  <span className="product-price">$250.00</span>
-                </div>
-              </div>
-            </div>
-            <div className="product product-style-2 equal-elem ">
-              <div className="product-thumnail">
-                <a
-                  href="detail.html"
-                  title="T-Shirt Raw Hem Organic Boro Constrast Denim"
-                >
-                  <figure>
-                    <img
-                      src="assets/images/products/kidtoy_05.jpg"
+                      src={assets.kidtoy_05}
                       width={800}
                       height={800}
                       alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -422,10 +392,9 @@ const Home = () => {
             <a href="#" className="link-banner banner-effect-2">
               <figure>
                 <img
-                  src="assets/images/digital-electronic-banner.jpg"
+                  src={assets.digital_electronic_banner}
                   width={1170}
                   height={240}
-                  alt
                 />
               </figure>
             </a>
@@ -450,7 +419,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/digital_04.jpg"
+                              src={assets.digital_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -486,7 +455,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/digital_17.jpg"
+                              src={assets.digital_17}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -527,7 +496,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/digital_15.jpg"
+                              src={assets.digital_15}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -569,7 +538,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/digital_01.jpg"
+                              src={assets.digital_01}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -607,7 +576,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/digital_21.jpg"
+                              src={assets.digital_21}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -640,7 +609,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/digital_03.jpg"
+                              src={assets.digital_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -681,7 +650,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/digital_04.jpg"
+                              src={assets.digital_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -717,7 +686,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/digital_05.jpg"
+                              src={assets.digital_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -760,10 +729,10 @@ const Home = () => {
             <a href="#" className="link-banner banner-effect-2">
               <figure>
                 <img
-                  src="assets/images/fashion-accesories-banner.jpg"
+                  src={assets.fashion_accesories_banner}
                   width={1170}
                   height={240}
-                  alt
+                  alt="Fashion Accessories Banner"
                 />
               </figure>
             </a>
@@ -802,7 +771,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_01.jpg"
+                              src={assets.fashion_01}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -837,7 +806,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_02.jpg"
+                              src={assets.fashion_02}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -878,7 +847,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_09.jpg"
+                              src={assets.fashion_09}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -910,7 +879,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_03.jpg"
+                              src={assets.fashion_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -951,7 +920,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_07.jpg"
+                              src={assets.fashion_07}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -989,7 +958,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_08.jpg"
+                              src={assets.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1030,7 +999,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_06.jpg"
+                              src={assets.fashion_06}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1066,7 +1035,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_05.jpg"
+                              src={assets.fashion_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1115,7 +1084,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_03.jpg"
+                              src={assets.fashion_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1153,7 +1122,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_07.jpg"
+                              src={assets.fashion_07}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1196,7 +1165,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_08.jpg"
+                              src={assets.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1234,7 +1203,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_09.jpg"
+                              src={assets.fashion_09}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1277,7 +1246,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_02.jpg"
+                              src={assets.fashion_02}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1315,7 +1284,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_05.jpg"
+                              src={assets.fashion_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1358,7 +1327,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_08.jpg"
+                              src={assets.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1396,7 +1365,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_04.jpg"
+                              src={assets.fashion_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1450,7 +1419,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_02.jpg"
+                              src={assets.fashion_02}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1486,7 +1455,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_03.jpg"
+                              src={assets.fashion_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1528,7 +1497,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_04.jpg"
+                              src={assets.fashion_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1564,7 +1533,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_05.jpg"
+                              src={assets.fashion_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1606,7 +1575,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_06.jpg"
+                              src={assets.fashion_06}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1642,7 +1611,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_07.jpg"
+                              src={assets.fashion_07}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1684,7 +1653,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_08.jpg"
+                              src={assets.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1720,7 +1689,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_09.jpg"
+                              src={assets.fashion_09}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1773,7 +1742,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_05.jpg"
+                              src={assets.fashion_05}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1813,7 +1782,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_04.jpg"
+                              src={assets.fashion_04}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1860,7 +1829,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_03.jpg"
+                              src={assets.fashion_03}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1902,7 +1871,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_02.jpg"
+                              src={assets.fashion_02}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1951,7 +1920,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_01.jpg"
+                              src={assets.fashion_01}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -1991,7 +1960,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_06.jpg"
+                              src={assets.fashion_06}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -2038,7 +2007,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_08.jpg"
+                              src={assets.fashion_08}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
@@ -2080,7 +2049,7 @@ const Home = () => {
                         >
                           <figure>
                             <img
-                              src="assets/images/products/fashion_09.jpg"
+                              src={assets.fashion_09}
                               width={800}
                               height={800}
                               alt="T-Shirt Raw Hem Organic Boro Constrast Denim"
